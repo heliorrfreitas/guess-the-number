@@ -15,11 +15,11 @@
 
 (defun tips-on ()
 	(print "tips turned on")
-	(defparameter *tips* 1))
+	(setf *tips* 1))
 
 (defun tips-off ()
 	(print "tips turned off")
-	(defparameter *tips* nil))
+	(setf *tips* nil))
 	
 
 
