@@ -13,4 +13,26 @@ The commands to play are:
 
 This game is based on the game guess-my-number from the book Land of Lisp. The main idea comes from this game anyway, but it was changed to fit the things I wanted to try in this program. 
 
+## Update
+
+I added a custom REPL. I learned it from another game from the same book. I saw that it would be a good fit for this game, and implemented it in here. 
+
+to play using the REPL, which is more user friendly, go to the Lisp REPL and use the command:
+
+`(game-repl)`
+
+Inside the custom REPL, you can use several commands like:
+
+`play` -> to start the game.
+
+`guess any-int-number` -> to make a guess.
+
+`tips on` -> to get a feedback on the guesses.
+
+`tips off` -> to play in a way harder level.
+
+`help` -> it pretty much displays this short descriptions for each command.
+
+`quit` -> to get out of the REPL. 
+
 
